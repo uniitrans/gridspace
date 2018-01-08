@@ -37,3 +37,17 @@
 .col-1-5 {
 	width: calc((100% - 12%) / 5);
 }
+
+/* High-Res Mobiles & Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+	[class*='col-'] {
+        float: none;
+        width: 100% !important;
+        margin-right: 0;
+    }
+}
+
+/* Fix for Low-Res Handhelds */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+}
