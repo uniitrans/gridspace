@@ -30,3 +30,8 @@
 	width: calc((100% - 9%) / 4);
 	margin-right: 3%;
 }
+
+.col-1-5 {
+	width: calc((100% - 12%) / 5);
+	margin-right: 3%;
+}
